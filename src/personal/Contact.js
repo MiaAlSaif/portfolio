@@ -16,9 +16,9 @@ const Contact = () => (
         <p>
           <span>LinkedIn</span>{" "}
           <ExternalLink href="www.linkedin.com/in/miaalsaif" />
-          {/* <a href="www.linkedin.com/in/miaalsaif" target="_blank"> */}
-          linkedin.com/in/miaalsaif
-          {/* </a> */}
+          {/* <a href="www.linkedin.com/in/miaalsaif" target="_blank">
+            linkedin.com/in/miaalsaif
+          </a> */}
         </p>
       </div>
     </div>
