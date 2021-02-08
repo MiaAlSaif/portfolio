@@ -1,0 +1,41 @@
+.contact {
+  height: 200px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .contact {
+    height: 250px;
+    width: 575px;
+  }
+}
+
+.contactFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.contactFlex img {
+  width: 140px;
+}
+
+.contactFlex span,
+.name {
+  font-weight: bold;
+}
+
+.name {
+  margin: 0;
+}
+
+.contactFlex p {
+  margin-top: 5px;
+}
+
+.name {
+  font-size: 24px;
+}
