@@ -1,6 +1,7 @@
 import React from "react";
 import contact from "../images/contact-me.png";
 import "./Contact.css";
+import { ExternalLink } from "react-external-link";
 
 const Contact = () => (
   <div className="contact">
@@ -14,9 +15,10 @@ const Contact = () => (
         </p>
         <p>
           <span>LinkedIn</span>{" "}
-          <a href="www.linkedin.com/in/miaalsaif" target="_blank">
-            linkedin.com/in/miaalsaif
-          </a>
+          <ExternalLink href="www.linkedin.com/in/miaalsaif" />
+          {/* <a href="www.linkedin.com/in/miaalsaif" target="_blank"> */}
+          linkedin.com/in/miaalsaif
+          {/* </a> */}
         </p>
       </div>
     </div>
