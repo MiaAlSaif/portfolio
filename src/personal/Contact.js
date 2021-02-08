@@ -1,7 +1,6 @@
 import React from "react";
 import contact from "../images/contact-me.png";
 import "./Contact.css";
-import { ExternalLink } from "react-external-link";
 
 const Contact = () => (
   <div className="contact">
