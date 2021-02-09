@@ -22,7 +22,7 @@
   width: 20px;
 }
 
-.header img:hover {
+.h-clickable:hover {
   cursor: pointer;
 }
 

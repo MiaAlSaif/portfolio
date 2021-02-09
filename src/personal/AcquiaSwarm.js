@@ -180,8 +180,12 @@ const AcquiaSwarm = () => (
             Zendesk configuration.
           </p>
           <p>Wireframes</p>
-          <img alt="wireframe" src={swarmWireframe} />
-          <img alt="whiteboard" src={swarmWhiteboard} />
+          <div className="img-bg">
+            <img alt="wireframe" src={swarmWireframe} />
+          </div>
+          <div className="img-bg">
+            <img alt="whiteboard" src={swarmWhiteboard} />
+          </div>
           <p>User Flow for ticker owners and collaborators</p>
           <img alt="workflow" src={swarmWorkflow} />
           <p>Early User Testing</p>
@@ -223,7 +227,9 @@ const AcquiaSwarm = () => (
             globally. This involved an interface that presented numerous
             interaction possibilities.
           </p>
-          <img alt="multiple screens" src={swarmScreens} />
+          <div className="img-bg">
+            <img alt="multiple screens" src={swarmScreens} />
+          </div>
           <p>
             To satisfy the need for cohesion and consistency, as well as a
             smooth transition into new workflows, the overall look and feel of
@@ -242,7 +248,9 @@ const AcquiaSwarm = () => (
             allowed users to review the history of a ticket accurately and
             swiftly.
           </p>
-          <img alt="designs" src={swarmInternals} />
+          <div className="img-bg">
+            <img alt="designs" src={swarmInternals} />
+          </div>
         </section>
         <section>
           <h3>Measured Impact</h3>

@@ -38,6 +38,7 @@ const Header = () => {
         <div className="right">
           <div>
             <img
+              className="h-clickable"
               alt="female"
               src={female}
               onClick={() => handleOpen("About Me", <About />)}
@@ -45,6 +46,7 @@ const Header = () => {
           </div>
           <div>
             <img
+              className="h-clickable"
               alt="email"
               src={email}
               onClick={() => handleOpen("Contact Me", <Contact />)}
