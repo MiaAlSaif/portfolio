@@ -7,7 +7,7 @@ const Contact = () => (
     <div className="contactFlex">
       <img alt="personal" src={contact} />
       <div>
-        <p className="name">Manal AlSaif</p>
+        <p className="name">Mia AlSaif</p>
         <p>Product Designer</p>
         <p>
           <span>Email</span> mia.alsaif[@]gmail.com
