@@ -17,8 +17,8 @@ const MiaResume = () => (
               <h3>Product Designer</h3>
             </div>
             <div className="dnld-btn">
-              <a href={Pdf} target="_blank">
-                <img src={Download} />
+              <a href={Pdf} target="_blank" rel="noreferrer">
+                <img src={Download} alt="download icon" />
               </a>
             </div>
           </div>
