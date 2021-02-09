@@ -14,10 +14,9 @@ const Contact = () => (
         </p>
         <p>
           <span>LinkedIn</span>{" "}
-          <a href="www.linkedin.com/in/miaalsaif">linkedin.com/in/miaalsaif</a>
-          {/* <a href="www.linkedin.com/in/miaalsaif" target="_blank">
+          <a href="https://www.linkedin.com/in/miaalsaif" target="_blank">
             linkedin.com/in/miaalsaif
-          </a> */}
+          </a>
         </p>
       </div>
     </div>

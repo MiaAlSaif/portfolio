@@ -1,6 +1,7 @@
 
 import { Fragment } from 'react'
-import { NavList } from '../nav'
+// import { NavList } from '../nav'
+import { NavItems } from '../nav'
 import { Header } from '../header'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <main>
         <nav>
-          <NavList />
+          {/* <NavList /> */}
+          <NavItems />
         </nav>
       </main>
     </Fragment>
