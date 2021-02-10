@@ -6,21 +6,21 @@
 
 @media only screen and (min-device-width: 768px) {
   .sbHomepage {
-    height: 600px;
-    width: 800px;
+    height: 70vw;
+    width: 80vw;
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .sbHomepage {
-    height: 700px;
-    width: 900px;
+    height: 60vw;
+    width: 70vw;
   }
 }
 @media only screen and (min-width: 1370px) {
   .sbHomepage {
-    height: 800px;
-    width: 1000px;
+    height: 48vw;
+    width: 64vw;
   }
 }
 
