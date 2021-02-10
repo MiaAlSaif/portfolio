@@ -14,7 +14,7 @@ const MiaResume = () => (
           <div className="cv-header">
             <div className="cv-ttl">
               <h1>Mia AlSaif</h1>
-              <h3>Product Designer</h3>
+              <h4>Product Designer</h4>
             </div>
             <div className="dnld-btn">
               <a href={Pdf} target="_blank" rel="noreferrer">

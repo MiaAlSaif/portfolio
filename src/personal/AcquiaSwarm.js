@@ -90,8 +90,11 @@ const AcquiaSwarm = () => (
           </ul>
         </section>
         <section>
-          <h3>User Interviews and workflow analysis revealed the following</h3>
-          <p>Identified User Tasks throughout the lifecycle of a ticket</p>
+          <p>
+            User Interviews and workflow analysis identified the following as
+            main user tasks performed throughout the lifecycle of a ticket
+          </p>
+
           <p>Task 1</p>
           <p>
             User owns a customer submitted ticket that is in need of senior
@@ -108,8 +111,8 @@ const AcquiaSwarm = () => (
             another user residing in a different time zone for continuous
             resolution.
           </p>
-          <p>Identified Current Workflows</p>
-          <p>Ticket owner workflow</p>
+          <h4>Identified Current Workflows</h4>
+          <span>Ticket owner workflow</span>
           <ol>
             <li>
               An owner requesting assistance utilizes a preset Zendesk macro.
@@ -137,7 +140,7 @@ const AcquiaSwarm = () => (
             <li>The ticket is removed from the Collaboration queue</li>
             <li>Process is repeated if further assistance is required</li>
           </ol>
-          <p>Collaborator workflow</p>
+          <span>Collaborator workflow</span>
           <ol>
             <li>Collaborator visits Collaboration queue</li>
             <li>
@@ -150,7 +153,7 @@ const AcquiaSwarm = () => (
             The following are goals Identified through discussions with
             stakeholders and surveying users
           </p>
-          <p>High-level goals</p>
+          <h4>High-level goals</h4>
           <ul>
             <li>
               Improve contractual service level agreement [SLA] compliance
@@ -161,7 +164,7 @@ const AcquiaSwarm = () => (
               Transition tickets globally and across departments uninterruptedly
             </li>
           </ul>
-          <p>Detailed goals</p>
+          <h4>Detailed goals</h4>
           <ul>
             <li>Allow multiple ticket owners</li>
             <li>Allow for any identified user to become a collaborator</li>
@@ -188,7 +191,7 @@ const AcquiaSwarm = () => (
           </div>
           <p>User Flow for ticker owners and collaborators</p>
           <img alt="workflow" src={swarmWorkflow} />
-          <p>Early User Testing</p>
+          <span>Early User Testing</span>
           <p>
             From there, a minimal viable product was designed, developed, and
             implemented for the purpose of testing. At this time, I had
@@ -220,7 +223,7 @@ const AcquiaSwarm = () => (
               process once Swarm is rolled out.
             </li>
           </ul>
-          <p>Solution</p>
+          <h3>Solution</h3>
           <p>
             The final product introduced a new workflow of owning,
             collaborating, and handing off tickets cross-departmentally and

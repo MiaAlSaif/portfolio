@@ -1,8 +1,7 @@
-
-import { Fragment } from 'react'
+import { Fragment } from "react";
 // import { NavList } from '../nav'
-import { NavItems } from '../nav'
-import { Header } from '../header'
+import { NavItems } from "../nav";
+import { Header } from "../header";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
           <NavItems />
         </nav>
       </main>
+      <div id="modal"></div>
     </Fragment>
   );
 }
