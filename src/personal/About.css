@@ -1,19 +1,19 @@
 .aboutApplication {
   position: relative;
-  height: 375px;
+  height: 400px;
   width: 450px;
 }
 
 @media only screen and (min-width: 769px) {
   .aboutApplication {
-    height: 400px;
+    height: 425px;
     width: 550px;
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .aboutApplication {
-    height: 475px;
+    height: 500px;
     width: 700px;
   }
 }
@@ -32,5 +32,5 @@
 }
 
 .block {
-  padding: 0 10%;
+  padding: 0 10% 3%;
 }
