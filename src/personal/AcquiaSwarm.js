@@ -5,15 +5,15 @@ import swarmWhiteboard from "../images/swarm-wb.png";
 import swarmWorkflow from "../images/swarm-workflow.svg";
 import swarmScreens from "../images/swarm-screens.png";
 import swarmInternals from "../images/swarm-internals.png";
-import "./SbHomepage.css";
+import "./modalContent.css";
 
 const AcquiaSwarm = () => (
-  <div className="sbHomepage">
-    <div className="sbHeading">
+  <div className="contentContainer">
+    <div className="headingContainer">
       <div className="headingBackground" />
     </div>
-    <div className="sbBody">
-      <div className="sbContent">
+    <div className="bodyContainer">
+      <div className="contentBody">
         <section>
           <img alt="header" src={swarmHeader} />
           <h3>Introduction</h3>

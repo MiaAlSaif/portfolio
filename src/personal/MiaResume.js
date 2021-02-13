@@ -1,15 +1,15 @@
 import React from "react";
-import "./SbHomepage.css";
 import Pdf from "../images/MiaAlSaifResume.pdf";
 import Download from "../images/download.png";
+import "./modalContent.css";
 
 const MiaResume = () => (
-  <div className="sbHomepage">
-    <div className="sbHeading">
+  <div className="contentContainer">
+    <div className="headingContainer">
       <div className="headingBackground-cv" />
     </div>
-    <div className="sbBody">
-      <div className="sbContent">
+    <div className="bodyContainer">
+      <div className="contentBody">
         <section>
           <div className="cv-header">
             <div className="cv-ttl">

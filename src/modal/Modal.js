@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom'
 import './Modal.css'
 
 
-const Modal = ({ isOpen, title, body, closeModal }) => 
+const Modal = ({ extraClass, isOpen, title, body, closeModal }) => 
   isOpen ?
     ReactDOM.createPortal(
-      (<div className='modal'>
+      (<div className={`modalContainer ${extraClass}`}>
         <div className='modalHeader'>
           <div className='modalClose' onClick={closeModal} />
           <div className='modalTitle'>{title}</div>

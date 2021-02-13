@@ -5,10 +5,10 @@
 }
 
 .h-bg {
-  opacity: 0.6;
+  opacity: 0.5;
   height: 100%;
   width: 100%;
-  background-color: #d8d8d8;
+  background-color: #f0ebe5;
   position: absolute;
 }
 .header {
@@ -43,6 +43,6 @@
 
 .right {
   float: right;
-  width: 180px;
+  width: 140px;
   margin-right: 20px;
 }

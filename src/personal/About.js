@@ -23,6 +23,7 @@ const About = () => (
           Support Engineer refined my approach to problem-solving and advocating
           for both the business and customers.
         </p>
+        <p></p>
       </div>
     </div>
   </div>

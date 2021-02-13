@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-// import { NavList } from '../nav'
 import { NavItems } from "../nav";
 import { Header } from "../header";
+import './App.css'
 
 function App() {
   return (
@@ -9,11 +9,10 @@ function App() {
       <Header />
       <main>
         <nav>
-          {/* <NavList /> */}
           <NavItems />
         </nav>
+        <div id="modal"></div>
       </main>
-      <div id="modal"></div>
     </Fragment>
   );
 }

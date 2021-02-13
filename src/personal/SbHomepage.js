@@ -6,17 +6,18 @@ import homepageGif from "../images/sb-2019.gif";
 import wireframes from "../images/sb-wf.png";
 import multipleDesigns from "../images/sb-homepage-designs.gif";
 import about from "../images/sb-about-wf.png";
-import "./SbHomepage.css";
+import "./modalContent.css";
 
 const SbHomepage = () => (
-  <div className="sbHomepage">
-    <div className="sbHeading">
+  <div className="contentContainer">
+    <div className="headingContainer">
       <div className="headingBackground" />
     </div>
-    <div className="sbBody">
-      <div className="sbContent">
+    <div className="bodyContainer">
+      <div className="contentBody">
         <section>
           <img alt="homepage" src={homepageImg} />
+
           <h3>Introduction</h3>
           <p>
             <span>Company:</span> Storyblocks, a subscription-based stock media

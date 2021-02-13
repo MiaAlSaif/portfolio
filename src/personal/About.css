@@ -1,36 +1,25 @@
-.about {
+.aboutApplication {
   position: relative;
-  height: 350px;
-  width: 550px;
+  height: 375px;
+  width: 450px;
 }
 
 @media only screen and (min-width: 769px) {
-  .about {
-    height: 375px;
-    width: 600px;
+  .aboutApplication {
+    height: 400px;
+    width: 550px;
   }
 }
 
 @media only screen and (min-width: 1025px) {
-  .about {
-    height: 450px;
+  .aboutApplication {
+    height: 475px;
     width: 700px;
   }
 }
 
-.aboutHeading,
-.aboutHeadingBackground {
-  width: 100%;
-  position: absolute;
-}
-
-.aboutHeading {
-  height: 120px;
-}
-
-.aboutHeadingBackground {
-  background-color: rgba(46, 49, 49, 1);
-  height: 100%;
+.about {
+  position: relative;
 }
 
 .aboutBody {
@@ -39,11 +28,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
   text-align: center;
 }
 
 .block {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 10%;
 }

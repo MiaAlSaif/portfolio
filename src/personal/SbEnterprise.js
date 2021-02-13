@@ -1,6 +1,5 @@
 import React from "react";
 import entVideo from "../images/ENT-vid.mp4";
-import entVideoMobile from "../images/ent-mobile.mov";
 import segmentation from "../images/segmentation.jpg";
 import whiteboard from "../images/ent-wb.jpg";
 import sketches from "../images/ent-wf-sketch.jpg";
@@ -10,15 +9,15 @@ import topNav from "../images/ent-top-nav.png";
 import multiScreens from "../images/ent-screens.jpg";
 import topNavGif from "../images/ent-top-nav.gif";
 import finalPersona from "../images/ent-persona-final.png";
-import "./SbHomepage.css";
+import "./modalContent.css";
 
 const SbEnterprise = () => (
-  <div className="sbHomepage">
-    <div className="sbHeading">
+  <div className="contentContainer">
+    <div className="headingContainer">
       <div className="headingBackground" />
     </div>
-    <div className="sbBody">
-      <div className="sbContent">
+    <div className="bodyContainer">
+      <div className="contentBody">
         <section>
           <div>
             <video controls className="cs-video">
@@ -275,11 +274,6 @@ const SbEnterprise = () => (
             </li>
             <div className="img-bg">
               <img alt="final persona" src={finalPersona} />
-            </div>
-            <div className="img-bg">
-              <video controls height={400} width={200} resizeMode={"cover"}>
-                <source src={entVideoMobile} type="video/mp4" />
-              </video>
             </div>
           </ul>
         </section>

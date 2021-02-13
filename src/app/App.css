@@ -1,0 +1,10 @@
+nav {
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+#modal {
+  margin-left: 200px;
+  padding-top: 40px;
+}
