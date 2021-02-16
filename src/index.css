@@ -7,15 +7,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: url("./images/charm.jpg") no-repeat center center fixed;
+  background: url("./images/bg.jpg") no-repeat center center fixed;
   background-size: 100% 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-color: black; */
-  background: rgb(222, 149, 195);
+  background-color: black;
+  /* background: rgb(222, 149, 195);
   background: radial-gradient(
     circle,
     rgba(222, 149, 195, 1) 18%,
@@ -24,6 +24,6 @@ body {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   font-family: "Lucida", sans-serif;
 }
