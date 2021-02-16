@@ -27,21 +27,14 @@ const Header = () => {
             <div>Product Designer</div>
           </div>
           <div className="right">
-            <div>
-              <img
-                className="h-clickable"
-                alt="email"
-                src={email}
-                onClick={handleOpen}
-              />
+            <div onClick={handleOpen}>
+              <img className="h-clickable" alt="email" src={email} />
             </div>
             <FormattedTime />
           </div>
         </header>
       </div>
-      {open && 
-        <Contact />
-      }
+      {open && <Contact />}
     </Fragment>
   );
 };

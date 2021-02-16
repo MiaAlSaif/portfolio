@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import LazyLoad from "react-lazyload";
 import { paths } from "./paths";
 import { Modal } from "../modal";
 import "./NavItems.css";
@@ -42,15 +41,13 @@ const NavItems = () => {
           </div>
         </div>
       ))}
-      <LazyLoad>
-        <Modal
-          extraClass={extraClass}
-          isOpen={open}
-          closeModal={handleClose}
-          title={title}
-          body={modalBody}
-        />
-      </LazyLoad>
+      <Modal
+        extraClass={extraClass}
+        isOpen={open}
+        closeModal={handleClose}
+        title={title}
+        body={modalBody}
+      />
     </>
   );
 };
